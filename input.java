@@ -10,7 +10,7 @@ class student{
    System.out.print("enter usn");
    usn=s.nextInt();
    System.out.print("enter name");
-   name=s.next();
+   name=s.nextLine();
    System.out.print("enter percantage");
    perc=s.nextDouble();
    }
