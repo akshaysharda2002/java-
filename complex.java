@@ -14,7 +14,7 @@ class complex{
    {
    System.out.println(r+" + "+i+"i");
       }
-      }
+      
     public complex add(complex c1)
     {
       complex c=new complex();
@@ -31,8 +31,8 @@ public static void main(String args[])
   c.read();
   complex c1=new complex();
   c1.read();
-  c.display();
-  c1.display();
+  complex c3=c.add(c1);
+  c3.display();
    }
    
    }
